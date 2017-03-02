@@ -1,0 +1,76 @@
+body {
+	background: #7EC0EA !important;
+}
+
+.twiterTitle {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+
+#feeds {
+    position: relative;
+    height: 600px;
+	width: auto;
+    overflow: hidden;
+	border-radius: 5px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+.tweets {
+	border: .5px solid black;
+	border-radius: 5px;
+	width: 100%;
+	background: white;
+}
+
+.tweets li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+.user li{
+	display: block;
+}
+
+.user {
+	padding: 5px;
+}
+
+.name {
+	color: #00aced;
+	font-size: 1.5em;
+}
+
+.screenName {
+	color: silver;
+}
+
+.tweet {
+	font-size: 1.5em;
+	height: auto;
+}
+
+.time {
+	color: silver;
+}
+
+.images {
+	border-radius: 10px;
+	height: 60px;
+	width: 60px;
+	float: left;
+	padding-right: 5px;
+}

@@ -1,0 +1,48 @@
+body {
+	background-image: url(http://cdn.wallpapersafari.com/0/89/bG6mNA.jpg);
+}
+#weather {
+	border: 1px solid black;
+	list-style: none;
+	border-radius: 5px;
+	padding: 0px;
+	margin: 0px;
+	background-color: #ffe177;
+}
+
+#weather li {
+	text-align: center;
+}
+
+#forecast {
+	max-height: 500px;
+	overflow-y: hidden;
+	position: relative;
+	width: auto;
+}
+
+#forecast li {
+	background-color: #ffe177;
+	border: 1px solid black;
+	text-align: center;
+	list-style: none;
+	border-radius: 5px;
+}
+
+#location {
+	text-decoration: underline;
+	font-size: 1.5em;
+}
+
+
+#main h1{
+	text-align: center;
+}
+
+.row {
+	margin: auto;
+}
+
+.silva {
+	color: #8c8b86;
+}
